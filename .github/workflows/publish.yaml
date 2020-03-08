@@ -12,8 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: the-coding-owl/action-typo3-extension-repository-upload@master
-      with: 
-        secret_username: ${{ secrets.USERNAME }}
-        secret_password: ${{ secrets.PASSWORD }}
-        extensionkey: 'github_actions_test'
-        uploadmessage: ${{ github.event.release.body }}
+      env: 
+        SECRET_USERNAME: ${{ secrets.USERNAME }}
+        SECRET_PASSWORD: ${{ secrets.PASSWORD }}
+        EXTENSION_KEY: 'github_actions_test'
+        UPLOAD_MESSAGE: ${{ github.event.release.body }}
