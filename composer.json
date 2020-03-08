@@ -1,0 +1,14 @@
+{
+    "name": "the-coding-owl/github_actions_test",
+    "description": "Just an empty shell to test github actions",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Kevin Ditscheid",
+            "email": "kevin@the-coding-owl.de"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^10.3.0"
+    }
+}
