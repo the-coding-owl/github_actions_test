@@ -15,5 +15,5 @@ jobs:
       with: 
         secret_username: ${{ secrets.USERNAME }}
         secret_password: ${{ secrets.PASSWORD }}
-        extensionkey: 'oclock'
+        extensionkey: 'github_actions_test'
         uploadmessage: ${{ github.event.release.body }}
